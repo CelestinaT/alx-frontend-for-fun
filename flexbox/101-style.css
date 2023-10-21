@@ -1,0 +1,76 @@
+:root {
+    --primary-color: #f0f6fe;
+    --box-1-color: #21cc6c;
+    --box-2-color: #2893f1;
+    --box-3-color: #344a61;
+    --box-4-color: #9d55b9;
+    --box-5-color: #e78000;
+    --box-large-font: 8rem;
+    --box-medium-font: 3rem;
+    --box-small-font: 2rem;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box {
+    color: var(--primary-color);
+    display: flex;
+    border: 2.5rem solid;
+  }
+  
+  .box1 {
+    background-color: var(--box-1-color);
+    font-size: var(--box-small-font);
+    border-color: var(--box-1-color);
+  }
+  
+  .box2 {
+    background-color: var(--box-2-color);
+    font-size: var(--box-medium-font);
+    border-color: var(--box-2-color);
+  }
+  
+  .box3 {
+    background-color: var(--box-3-color);
+    font-size: var(--box-large-font);
+    border-color: var(--box-3-color);
+  }
+  
+  .box4 {
+    background-color: var(--box-4-color);
+    font-size: var(--box-medium-font);
+    border-color: var(--box-4-color);
+  }
+  
+  .box5 {
+    background-color: var(--box-5-color);
+    font-size: var(--box-small-font);
+    border-color: var(--box-5-color);
+  }
+  
+  .box1, .box5 {
+    position: relative;
+    top: 20px;
+  }
+  
+  .box2, .box4 {
+    position: relative;
+    top: 18px;
+  }
